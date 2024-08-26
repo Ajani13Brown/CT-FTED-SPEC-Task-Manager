@@ -1,8 +1,16 @@
 import React from 'react'
+import Jumbotron from '../components/Jumbotron'
+import Navbar from '../components/Navbar'
+import EditTaskForm from '../components/EditTaskForm'
 
 const EditTask = () => {
   return (
-    <div>EditTask</div>
+    <>
+    <Navbar/>
+    <Jumbotron/>
+    <h1>EditTask</h1>
+    <EditTaskForm/>
+    </>
   )
 }
 
